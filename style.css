@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e5e5e5;
+    font-family: "Montserrat", sans-serif;
+    /*color: white;*/
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.top_black {
+    display: flex;
+    background-color: black;
+}
+
+.top_blue {
+    display: flex;
+    background-color: #404bd9;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* BARRAS NEGRA */
+
+.top_black img {
+    margin-right: 10px;
+}
+
+.bar_medidas {
+    margin: 0 auto;
+    height: 60px;
+    width: 1170px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.bar_medidas p {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.top_black ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.link-01 {
+    border: 2px solid #fcad18;
+    border-radius: 50px;
+    padding: 8px 20px;
+}
+
+.link-01:hover {
+    background-color: #fcad18;
+    color: black;
+    font-weight: 500;
+}
+
+/* BARRA AZUL */
+
+.logo_zegel {
+    width: 160px;
+    height: 26.66px;
+}
+
+.blue_bloque01 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blue01a {
+    margin-left: 30px;
+    display: flex;
+    column-gap: 30px;
+    font-weight: 500;
+}
+
+.link-02 :hover {
+    color: #fcad18;
+    font-weight: 500;
+}
+
+.activate {
+    color: #fcad18;
+}
+
+.blue_bloque02 {
+    margin-right: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.blue02a {
+    margin-left: 5px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.carrito01 {
+    width: 24px;
+    height: 24px;
+}
+
+.link-03 {
+    border: 2px solid #a0a5ec;
+    border-radius: 50px;
+    padding: 8px 20px;
+}
+
+.link-03:hover {
+    border: 2px solid white;
+}
+
+.link-04 {
+    background-color: #fcad18;
+    border: 2px solid #fcad18;
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.contador {
+    position: relative;
+}
+
+.nro {
+    position: absolute;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: #fcad18;
+    border-radius: 10px;
+    padding: 2px 5px;
+    color: black;
+    top: -8px;
+    right: -8px
+}
+
+.slogan {
+    color: white;
+}
+
+#reloj {
+    font-weight: 600;
+    color: white;
+}
+
+.categoriasfijo {
+    position: sticky;
+    top: 100px;
+}
+
+.categorias {
+    font-size: 14px;
+}
+
+.categorias h2 {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+
+h1 {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.casita {
+    height: 60px;
+    width: 1170px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.listado {
+    max-width: 865px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    gap: 2rem;
+}
+
+.container-curso {
+    background-color: white;
+    position: relative;
+}
+
+.curso {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 429px;
+}
+
+h2 {
+    color: #404BD9;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ponente {
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.cur01 {
+    padding: 8px 15px;
+}
+
+.precios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.pre01 {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.pre02 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.tacha {
+    text-decoration: line-through;
+}
+
+.precioverde {
+    color: #34C759;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cur02 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+.link-05 {
+    color: #404bd9;
+    border: 2px solid #404bd9;
+    border-radius: 50px;
+    font-weight: 500;
+    padding: 12px 25px;
+}
+
+.link-05:hover {
+    background-color: #404bd9;
+    color: white;
+}
+
+.link-06 {
+    color: #404bd9;
+    border: 2px solid #404bd9;
+    border-radius: 50px;
+    font-weight: 500;
+    padding: 10px 12px;
+}
+
+.nuevo {
+    width: 63px;
+    height: 65px;
+
+    background-image: url(./img/svg_nuevo.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
+    font-size: 9px;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: -18px;
+    right: -25px;
+}
+
+
+.lista-cat input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 7px;
+    border-radius: 0;
+}
+
+.lista-cat li {
+    margin-bottom: 10px;
+}
+
+.search {
+    width: 90%;
+    height: 40px;
+    border: 1px solid #cdcdcf;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+}
+
+.link-07 {
+    color: #34C759;
+    background-color: #34C759;
+    border-radius: 50px;
+    font-weight: 500;
+    padding: 12px 25px;
+    color: white;
+}
+
+.link-08 {
+    width: 150px;
+    color: white;
+    background-color: #404bd9;
+    border-radius: 15px 15px 0 0;
+    font-weight: 500;
+    padding: 12px 35px;
+}
+
+.contact {
+    width: 1720px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+    bottom: 0;
+    right: 0;
+}
+
+.wp {
+    display: flex;
+    align-items: center;
+}
